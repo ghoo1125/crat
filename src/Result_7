@@ -1,0 +1,68 @@
+********************************
+** CRAT Result - k-means(k=7) **
+********************************
+____________________________________________________
+|Normal app: (36)|  Category  |  Type  |    ROC    |
+----------------------------------------------------
+|Taxi!           |      1     | A!!(3) |    FN     | large net why? ad?
+|Word Wars       |      1     |    3   |    TP     |
+|DuckShooting    |      1     |    3   |    TP     | Duckshooting => only use network when submit
+|Zirma           |      1     |    2   |    TP     |
+|Penguin Pop     |      1     |    2   |    TP     |
+|Buggyfighter    |      1     |    2   |    TP     |
+|Hextris         |      1     |    2   |    TP     |
+|Zombie Smasher  |      1     |    2   |    TP     |
+|Tetrix Ultimate |      1     |    2   |    TP     |
+|TetrisFOX       |      1     |    3   |    TP     |
+|Oh Chute!       |      1     |    3   |    TP     |
+|Maze            |      1     |    3   |    TP     |
+|Snake           |      1     |    2   |    TP     |
+|Colour Code     |      1     |    3   |    TP     |
+|Eight Ball Cham |      1     |    2   |    TP     |
+|Fishing Cat     |      1     |    3   |    TP     |
+|Tower Jelly     |      1     |    2   |    TP     |
+|Nitnem Sikh Pra |      2     |    4   |    TP     |
+|Cuentitos       |      2     |    3   |    TP     |
+|SD Explorer     |      2     |    3   |    TP     |
+|Wallpapers +    |      2     |    1   |    TP     |
+|Scutify         |      2     |    1   |    TP     |
+|Resistor Color  |      2     |    3   |    TP     |
+|C Programs      |      2     |    3   |    TP     |
+|Learn C         |      2     |    4   |    TP     |
+|Facebook	 |      2     |    1   |    TP     |
+|YouTube	 |	2     |    3   |    TP     |
+|Bing Maps	 |	2     |    3   |    TP     |
+|Wallpaper Wonde |      2     |    1   |    TP     |
+|YOUZEEK         |      2     |    1   |    TP     | large net
+|StackOverflow   |      2     |    3   |    TP     |
+|Firetext        |      2     |    1   |    TP     | 
+|FireDisplay     |      2     |    4   |    TP     |
+|Currency        |      2     |    4   |    TP     |
+|SCORE-LINE      |      2     |    1   |    TP     |
+|Notes           |      2     |    4   |    TP     |
+|---------------------------------------------------
+|Malware app: (2)|  Category  |  Type  |    ROC    |
+----------------------------------------------------
+|tic_cpu	 |      1     | A!!(2) |    TN     |
+|tic_mem  	 |      1     | A!!(2) |    TN     |
+|tic_net         |	1     |        |           |
+|tic_sys         |	1     |        |           |
+----------------------------------------------------
+_________________________________
+|   |         |         |       |
+|k=3|    P    |    N    |  Tot  |
+|___|_________|_________|_______|
+|   |   (TP)  |   (FP)  |       |
+| P'|    35   |     0   |   35  |
+|___|_________|_________|_______|
+|   |   (FN)  |   (TN)  |       |
+| N'|     1   |     2   |    3  |
+|___|_________|_________|_______|
+|   |         |         |       |
+|Tot|    36   |     2   |   38  |
+|___|_________|_________|_______|
+
+ACC = (TP+TN)/(P+N) = 37/38 = 97.3%
+TPR = TP/P          = 35/36 = 97.2%
+FPR = FP/N          = 0/2   = 0%
+

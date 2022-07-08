@@ -1,0 +1,235 @@
+top - 12:17:39 up 24 days, 22:18, 13 users,  load average: 0.46, 0.73, 0.68
+Tasks: 226 total,   3 running, 221 sleeping,   0 stopped,   2 zombie
+%Cpu(s): 14.1 us, 19.9 sy,  0.0 ni, 65.8 id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   3717820 total,  3580220 used,   137600 free,   107676 buffers
+KiB Swap:  3858428 total,   136092 used,  3722336 free.  1554056 cached Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+ 2186 ghoo      20   0 1317324 503456  35184 R  97.5 13.5   7458:24 firefox
+ 6008 ghoo      20   0 2210356 487300  22864 S   6.5 13.1   2:31.92 emulator64-arm
+    1 root      20   0   37224   6648   1528 S   0.0  0.2   0:02.17 init
+    2 root      20   0       0      0      0 S   0.0  0.0   0:00.79 kthreadd
+    3 root      20   0       0      0      0 S   0.0  0.0   0:38.16 ksoftirqd/0
+    5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:0H
+    7 root      20   0       0      0      0 S   0.0  0.0  24:21.24 rcu_sched
+    8 root      20   0       0      0      0 S   0.0  0.0  93:04.65 rcuos/0
+    9 root      20   0       0      0      0 S   0.0  0.0  98:02.58 rcuos/1
+   10 root      20   0       0      0      0 S   0.0  0.0  96:35.80 rcuos/2
+   11 root      20   0       0      0      0 S   0.0  0.0  96:27.17 rcuos/3
+   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_bh
+   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/0
+   14 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/1
+   15 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/2
+   16 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/3
+   17 root      rt   0       0      0      0 S   0.0  0.0  45:34.76 migration/0
+   18 root      rt   0       0      0      0 S   0.0  0.0   0:04.78 watchdog/0
+   19 root      rt   0       0      0      0 S   0.0  0.0   0:04.69 watchdog/1
+   20 root      rt   0       0      0      0 S   0.0  0.0  45:18.85 migration/1
+   21 root      20   0       0      0      0 S   0.0  0.0   0:57.50 ksoftirqd/1
+   23 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/1:0H
+   24 root      rt   0       0      0      0 S   0.0  0.0   0:04.53 watchdog/2
+   25 root      rt   0       0      0      0 S   0.0  0.0  45:28.77 migration/2
+   26 root      20   0       0      0      0 S   0.0  0.0   0:40.08 ksoftirqd/2
+   28 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/2:0H
+   29 root      rt   0       0      0      0 S   0.0  0.0   0:04.57 watchdog/3
+   30 root      rt   0       0      0      0 S   0.0  0.0  45:54.87 migration/3
+   31 root      20   0       0      0      0 S   0.0  0.0   0:39.08 ksoftirqd/3
+   33 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/3:0H
+   34 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 khelper
+   35 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kdevtmpfs
+   36 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 netns
+   37 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 writeback
+   38 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kintegrityd
+   39 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+   41 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kblockd
+   42 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ata_sff
+   43 root      20   0       0      0      0 S   0.0  0.0   2:28.81 khubd
+   44 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 md
+   45 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 devfreq_wq
+   49 root      20   0       0      0      0 S   0.0  0.0   0:01.02 khungtaskd
+   50 root      20   0       0      0      0 S   0.0  0.0   0:01.59 kswapd0
+   51 root      25   5       0      0      0 S   0.0  0.0   0:00.00 ksmd
+   52 root      39  19       0      0      0 S   0.0  0.0   0:28.48 khugepaged
+   53 root      20   0       0      0      0 S   0.0  0.0   0:00.00 fsnotify_mark
+   54 root      20   0       0      0      0 S   0.0  0.0   0:00.00 ecryptfs-kthrea
+   55 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 crypto
+   67 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kthrotld
+   70 root      20   0       0      0      0 S   0.0  0.0   0:00.00 scsi_eh_0
+   71 root      20   0       0      0      0 S   0.0  0.0   0:00.01 scsi_eh_1
+   74 root      20   0       0      0      0 S   0.0  0.0   0:00.01 scsi_eh_2
+   75 root      20   0       0      0      0 S   0.0  0.0   0:00.03 scsi_eh_3
+   96 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 deferwq
+   97 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 charger_manager
+  153 root      20   0       0      0      0 S   0.0  0.0   0:00.00 scsi_eh_4
+  155 root      20   0       0      0      0 S   0.0  0.0   3:11.83 usb-storage
+  163 root      20   0       0      0      0 S   0.0  0.0   0:25.96 jbd2/sda1-8
+  164 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ext4-rsv-conver
+  295 root      20   0   51740   1120    824 S   0.0  0.0   0:00.05 systemd-udevd
+  338 root     -51   0       0      0      0 S   0.0  0.0   0:00.00 irq/45-mei_me
+  409 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 led_workqueue
+  544 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 hd-audio0
+  829 message+  20   0   40284   2476   1136 S   0.0  0.1   0:02.40 dbus-daemon
+  832 syslog    20   0  255844   2476    920 S   0.0  0.1   0:00.39 rsyslogd
+  888 root      20   0  330236   2536   2260 S   0.0  0.1   0:00.01 ModemManager
+  890 root      20   0   19292   1288   1200 S   0.0  0.0   0:00.00 bluetoothd
+  904 root      10 -10       0      0      0 S   0.0  0.0   0:00.00 krfcommd
+  953 avahi     20   0   32352   1388   1204 S   0.0  0.0   0:06.64 avahi-daemon
+  961 root      20   0   43560   1668   1488 S   0.0  0.0   0:00.21 systemd-logind
+  964 avahi     20   0   32224    224    164 S   0.0  0.0   0:00.00 avahi-daemon
+  989 root      20   0   20020    764    760 S   0.0  0.0   0:00.00 getty
+  993 root      20   0   20020    764    760 S   0.0  0.0   0:00.00 getty
+ 1000 root      20   0   20020    764    760 S   0.0  0.0   0:00.00 getty
+ 1001 root      20   0   20020    764    760 S   0.0  0.0   0:00.00 getty
+ 1004 root      20   0   20020    764    760 S   0.0  0.0   0:00.00 getty
+ 1038 root      20   0   61364   1488   1372 S   0.0  0.0   0:00.00 sshd
+ 1055 root      20   0   75352   2784   2600 S   0.0  0.1   0:00.03 cups-browsed
+ 1057 root      20   0    4368    524    512 S   0.0  0.0   0:19.68 acpid
+ 1095 kernoops  20   0   37144    784    688 S   0.0  0.0   0:15.87 kerneloops
+ 1097 root      20   0   19188    604    492 S   0.0  0.0   1:18.55 irqbalance
+ 1099 root      20   0   23656    892    804 S   0.0  0.0   0:01.56 cron
+ 1141 root      20   0  350000   4088   3232 S   0.0  0.1   0:19.83 NetworkManager
+ 1147 root      20   0  288660   5412   3144 S   0.0  0.1   0:01.24 polkitd
+ 1163 root      20   0   20020    764    760 S   0.0  0.0   0:00.00 getty
+ 1172 whoopsie  20   0  361292   3852   3424 S   0.0  0.1   0:00.68 whoopsie
+ 1183 ghoo      30  10       0      0      0 Z   0.0  0.0   0:00.08 debconf-communi
+ 1188 root      20   0  351588   5240   2728 S   0.0  0.1   0:00.13 lightdm
+ 1198 root      20   0  287612   3860   3032 S   0.0  0.1   0:00.88 accounts-daemon
+ 1210 root      20   0  521136  59656  42648 S   0.0  1.6  24:31.67 Xorg
+ 1221 root      20   0  168304   3116   2828 S   0.0  0.1   0:00.01 lightdm
+ 1226 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kauditd
+ 1230 root      20   0   71484   2020   1396 S   0.0  0.1   0:00.01 sudo
+ 1231 root      20   0   70824   1772   1308 S   0.0  0.0   0:00.00 su
+ 1232 root      20   0   25560   2372   1676 S   0.0  0.1   0:06.64 bash
+ 1235 ghoo      20   0   41788   4232   1668 S   0.0  0.1   0:00.85 init
+ 1237 root      20   0   19476    392    216 S   0.0  0.0   0:00.00 upstart-udev-br
+ 1241 root      20   0   15260    628    432 S   0.0  0.0   0:00.01 upstart-socket-
+ 1243 ghoo      20   0   22304   1184   1012 S   0.0  0.0   0:00.00 upstart-event-b
+ 1246 root      20   0   15276    636    420 S   0.0  0.0   0:00.01 upstart-file-br
+ 1253 ghoo      20   0   30788    456    184 S   0.0  0.0   0:00.00 upstart-file-br
+ 1255 ghoo      20   0   22312    400    192 S   0.0  0.0   0:00.41 upstart-dbus-br
+ 1257 ghoo      20   0   22312    412    200 S   0.0  0.0   0:00.04 upstart-dbus-br
+ 1301 ghoo      20   0   40320   2220    872 S   0.0  0.1   0:26.81 dbus-daemon
+ 1314 ghoo      20   0   78332   2716   2476 S   0.0  0.1   0:00.68 window-stack-br
+ 1317 ghoo      20   0  223284   2976   2624 S   0.0  0.1   0:00.14 gnome-keyring-d
+ 1342 ghoo      20   0  384064  29836   2780 S   0.0  0.8   8:07.83 ibus-daemon
+ 1357 ghoo      20   0  813456  11856   8888 S   0.0  0.3   0:16.90 unity-settings-
+ 1361 ghoo      20   0  667480  17772   9120 S   0.0  0.5   0:04.37 hud-service
+ 1364 ghoo      20   0  337568   2632   2616 S   0.0  0.1   0:00.00 at-spi-bus-laun
+ 1365 ghoo      20   0  583816  10796   6996 S   0.0  0.3   0:01.53 gnome-session
+ 1370 ghoo      20   0  649220  24224  10256 S   0.0  0.7   1:03.47 unity-panel-ser
+ 1371 ghoo      20   0   39380   1812   1436 S   0.0  0.0   0:00.21 dbus-daemon
+ 1376 ghoo      20   0  270508   3264   2476 S   0.0  0.1   0:00.16 gvfsd
+ 1383 ghoo      20   0  345664   2620   2424 S   0.0  0.1   0:00.01 gvfsd-fuse
+ 1388 ghoo      20   0  280880   3076   2788 S   0.0  0.1   0:00.03 ibus-dconf
+ 1389 ghoo      20   0  502424  38064   9184 S   0.0  1.0   1:30.50 ibus-ui-gtk3
+ 1391 ghoo      20   0  386816   6988   4348 S   0.0  0.2   0:00.36 ibus-x11
+ 1408 ghoo      20   0  553564  14528   9464 S   0.0  0.4   0:33.56 bamfdaemon
+ 1414 ghoo      20   0  124912   3012   2720 S   0.0  0.1   0:02.10 at-spi2-registr
+ 1449 root      20   0  239348   3752   3264 S   0.0  0.1   0:00.07 upowerd
+ 1456 ghoo       9 -11  374256   9376   7572 S   0.0  0.3  40:24.45 pulseaudio
+ 1458 rtkit     21   1  168916   1060   1044 S   0.0  0.0   0:14.21 rtkit-daemon
+ 1467 ghoo      20   0  205156   3192   2752 S   0.0  0.1   2:24.74 ibus-engine-sim
+ 1512 ghoo      20   0  586420   9980   7136 S   0.0  0.3   0:01.51 indicator-keybo
+ 1514 ghoo      20   0  335084   2428   2428 S   0.0  0.1   0:00.00 indicator-messa
+ 1516 ghoo      20   0  263640   2324   2324 S   0.0  0.1   0:00.00 indicator-bluet
+ 1518 ghoo      20   0  278452   3012   2612 S   0.0  0.1   0:00.11 indicator-power
+ 1523 ghoo      20   0 1162584   6108   4620 S   0.0  0.2   0:21.67 indicator-datet
+ 1526 ghoo      20   0  553100   5072   3868 S   0.0  0.1   0:00.26 indicator-sound
+ 1527 ghoo      20   0  446684   9240   7712 S   0.0  0.2   0:00.86 indicator-print
+ 1530 ghoo      20   0  893724   5812   2836 S   0.0  0.2   0:00.97 indicator-sessi
+ 1533 ghoo      20   0  286748   6192   3740 S   0.0  0.2   0:00.69 indicator-appli
+ 1691 ghoo      20   0 1674760  72660  22332 S   0.0  2.0  53:21.51 compiz
+ 1702 ghoo      20   0  348664  13312   9224 S   0.0  0.4   0:06.64 notify-osd
+ 1742 colord    20   0  301524   4084   3468 S   0.0  0.1   0:00.06 colord
+ 1744 ghoo      20   0  178304   2528   2136 S   0.0  0.1   0:00.04 dconf-service
+ 1759 ghoo      20   0 1095344   8416   5152 S   0.0  0.2   0:00.09 evolution-sourc
+ 1792 ghoo      20   0  459196  10108   8668 S   0.0  0.3   0:01.15 nm-applet
+ 1795 ghoo      20   0  403212   7264   6408 S   0.0  0.2   0:00.84 unity-fallback-
+ 1798 ghoo      20   0  642892  16560  10296 S   0.0  0.4   0:00.89 polkit-gnome-au
+ 1800 ghoo      20   0 1134356  35972  17948 S   0.0  1.0   9:05.82 nautilus
+ 1806 ghoo      20   0  298984   6932   3168 S   0.0  0.2   0:04.83 gvfs-udisks2-vo
+ 1816 root      20   0  371092   7176   3048 S   0.0  0.2   3:07.45 udisksd
+ 1829 ghoo      20   0  285968   3124   2536 S   0.0  0.1   0:00.01 gvfs-afc-volume
+ 1834 ghoo      20   0  200284   2696   2360 S   0.0  0.1   0:00.01 gvfs-mtp-volume
+ 1838 ghoo      20   0  212448   3156   2408 S   0.0  0.1   0:00.01 gvfs-gphoto2-vo
+ 1840 ghoo      20   0   58028   3488   2028 S   0.0  0.1   0:01.39 gconfd-2
+ 1850 ghoo      20   0 1073744  38664   4744 S   0.0  1.0   0:00.90 evolution-calen
+ 1852 ghoo      20   0 2820220 118180  12204 S   0.0  3.2  20:08.25 dropbox
+ 1892 ghoo      20   0  515824   4316   3160 S   0.0  0.1   0:00.06 gvfsd-trash
+ 1914 ghoo      20   0  270380   4948   2312 S   0.0  0.1   0:00.00 gvfsd-burn
+ 1998 ghoo      20   0  455012  10312   7108 S   0.0  0.3   0:00.87 telepathy-indic
+ 2004 ghoo      20   0  322340   4848   3460 S   0.0  0.1   0:01.05 mission-control
+ 2032 ghoo      20   0  348984   4792   3616 S   0.0  0.1   0:00.47 zeitgeist-daemo
+ 2038 ghoo      20   0  252560   7864   5252 S   0.0  0.2   0:19.86 zeitgeist-fts
+ 2040 ghoo      20   0  483728   9880   4904 S   0.0  0.3   0:20.31 zeitgeist-datah
+ 2055 ghoo      20   0   11416    588    492 S   0.0  0.0   0:00.00 cat
+ 2100 ghoo      20   0  499956  14576   8768 S   0.0  0.4   0:02.77 update-notifier
+ 2122 ghoo      20   0  377872   3736   2876 S   0.0  0.1   0:00.86 deja-dup-monito
+ 2216 ghoo      20   0  256988   2732   2376 S   0.0  0.1   0:00.01 unity-webapps-s
+ 2335 ghoo      20   0  664356  28384  11564 S   0.0  0.8  14:52.70 gnome-terminal
+ 2344 ghoo      20   0   14824    828    668 S   0.0  0.0   0:00.00 gnome-pty-helpe
+ 2345 ghoo      20   0   27288   4364   1832 S   0.0  0.1   0:00.27 bash
+ 3063 ghoo      20   0   27364   4452   1844 S   0.0  0.1   0:01.55 bash
+ 3142 ghoo      20   0   27088   3852   1716 S   0.0  0.1   0:00.02 bash
+ 3190 ghoo      20   0   27180   3348   1824 S   0.0  0.1   0:00.03 bash
+ 3238 ghoo      20   0   31576    444    284 S   0.0  0.0  23:07.77 adb
+ 3359 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfsalloc
+ 3360 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfs_mru_cache
+ 3361 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 xfslogd
+ 3372 root      20   0       0      0      0 S   0.0  0.0   0:00.00 jfsIO
+ 3373 root      20   0       0      0      0 S   0.0  0.0   0:00.00 jfsCommit
+ 3374 root      20   0       0      0      0 S   0.0  0.0   0:00.00 jfsCommit
+ 3375 root      20   0       0      0      0 S   0.0  0.0   0:00.00 jfsCommit
+ 3376 root      20   0       0      0      0 S   0.0  0.0   0:00.00 jfsCommit
+ 3377 root      20   0       0      0      0 S   0.0  0.0   0:00.00 jfsSync
+ 3396 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 3981 ghoo      20   0   27196   4320   1888 S   0.0  0.1   0:00.07 bash
+ 4044 ghoo      20   0   27200   4276   1844 S   0.0  0.1   0:00.10 bash
+ 4159 root      20   0   71484   2396   1772 S   0.0  0.1   0:00.00 sudo
+ 4160 root      20   0   70824   1844   1380 S   0.0  0.0   0:00.00 su
+ 4161 root      20   0   25284   2208   1692 S   0.0  0.1   0:00.03 bash
+ 4335 root      20   0       0      0      0 S   0.0  0.0   0:02.27 kworker/u8:6
+ 4414 root      20   0       0      0      0 S   0.0  0.0   0:02.08 kworker/u8:3
+ 5131 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/1:2
+ 5188 root      20   0       0      0      0 S   0.0  0.0   0:00.83 kworker/u8:0
+ 5616 root      20   0   76852   3664   2620 S   0.0  0.1   0:00.00 cupsd
+ 5619 lp        20   0   63156   2244   1720 S   0.0  0.1   0:00.00 dbus
+ 5929 root      20   0       0      0      0 S   0.0  0.0   0:00.16 kworker/u8:5
+ 5961 root       0 -20       0      0      0 S   0.0  0.0   0:00.05 kworker/u9:2
+ 5982 root      20   0       0      0      0 S   0.0  0.0   0:00.10 kworker/3:1
+ 5988 root      20   0       0      0      0 S   0.0  0.0   0:00.13 kworker/0:1
+ 5991 root      20   0       0      0      0 S   0.0  0.0   0:00.03 kworker/2:1
+ 5997 root      20   0       0      0      0 S   0.0  0.0   0:00.11 kworker/2:2
+ 5998 root      20   0       0      0      0 S   0.0  0.0   0:00.05 kworker/3:2
+ 5999 root       0 -20       0      0      0 S   0.0  0.0   0:00.02 kworker/u9:1
+ 6001 root      25   5  291604  82328  41816 S   0.0  2.2   0:01.18 aptd
+ 6075 ghoo      30  10       0      0      0 Z   0.0  0.0   0:00.09 debconf-communi
+ 6443 ghoo      20   0  336400  24768   8200 S   0.0  0.7   0:01.33 oneconf-service
+ 6453 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/u8:4
+ 6456 root      20   0       0      0      0 R   0.0  0.0   0:00.08 kworker/0:0
+ 6463 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/2:0
+ 6464 root      20   0       0      0      0 S   0.0  0.0   0:00.03 kworker/3:0
+ 6465 ghoo      20   0   13140   1012    800 S   0.0  0.0   0:00.00 adb
+ 6470 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/u9:0
+ 6471 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/0:2
+ 6500 ghoo      20   0   29152   1528   1076 R   0.0  0.0   0:00.00 top
+ 6980 ghoo      20   0  594132  19684   5828 S   0.0  0.5   0:20.57 unity-scope-loa
+ 6988 ghoo      20   0  725236   7068   5136 S   0.0  0.2   0:00.14 unity-files-dae
+ 7564 ghoo      20   0  124484   2664   2224 S   0.0  0.1   0:00.00 gvfsd-metadata
+11281 ghoo      20   0   27196   3880   1840 S   0.0  0.1   0:00.04 bash
+14572 ghoo      20   0   27196   4096   1832 S   0.0  0.1   0:00.04 bash
+18304 ghoo      20   0   27204   4324   1884 S   0.0  0.1   0:00.09 bash
+20982 ghoo      20   0   27204   4276   1836 S   0.0  0.1   0:00.11 bash
+22445 ghoo      20   0   27220   4300   1844 S   0.0  0.1   0:00.40 bash
+24230 ghoo      20   0  555804  11392   6544 S   0.0  0.3   0:00.64 gvfsd-recent
+26014 ghoo      20   0   27180   4208   1884 S   0.0  0.1   0:00.03 bash
+26996 ghoo      20   0  934136  12656   5244 S   0.0  0.3   0:00.20 gvfsd-http
+27818 ghoo      20   0  345972   6172   4044 S   0.0  0.2   0:14.25 unity-music-dae
+27823 ghoo      20   0   54732   5920   2696 S   0.0  0.2   0:00.30 vim
+28826 ghoo      30  10  769700 197124 126656 S   0.0  5.3   0:15.00 update-manager
+29301 root      20   0       0      0      0 S   0.0  0.0   0:06.57 kworker/u8:2
+29715 root      20   0       0      0      0 S   0.0  0.0   0:09.25 kworker/1:1
+31386 ghoo      20   0   54200   5688   2900 S   0.0  0.2   0:00.49 vim
+31964 ghoo      20   0  611520  14056   6576 S   0.0  0.4   0:00.62 unity-scope-hom
+(B[m[1m 2186 ghoo      20   0 1317324 510204  35184 R  97.5 13.7   7458:49 firefox                                      (B[m[39;49m[K
+ 2186 ghoo      20   0 1317324 512296  35184 R  97.8 13.8   7458:57 firefox
